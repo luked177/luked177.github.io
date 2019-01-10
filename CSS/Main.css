@@ -374,4 +374,9 @@ p.about{
 	img.slidePhoto{
 		width:400px;
 	}
+
+	#liveContent p{
+	font-size: 0.75em;
+	margin: 0;
+	}
 }
