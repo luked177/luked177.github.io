@@ -345,12 +345,16 @@ p.about{
 	#cssToggleButton{
 		position: absolute; left: 125; top: 10;
 		font-size: 10;
+		width: 50;
+		height: 50;
 		color:#000000;
 	}
 
 	#cssToggleReverseButton{
 		position: absolute; left: 175; top: 10;
 		font-size: 10;
+		width: 50;
+		height: 50;
 		color:#000000;
 	}
 }
