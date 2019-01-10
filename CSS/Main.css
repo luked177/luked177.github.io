@@ -275,7 +275,7 @@ p.about{
 
 	
 	#logo{
-	    position: absolute; left: 75;
+	    position: absolute; left: 150;
 	    padding: ;
 	    margin:0;
 	}
@@ -292,7 +292,7 @@ p.about{
 	}
 
 	#tickets a{
-		position: absolute; left: 125; top: 30;
+		position: absolute; left: 275; top: 30;
 		color: #FFFFFF;
 		margin:0;
 		font-size: 1.5em;
@@ -303,7 +303,7 @@ p.about{
 	width:100%;
 	height: 100;
     border-top: 2px solid white;
-    position: absolute; top: 800;
+    position: absolute; top: 1000;
     background-color: #000000;
     position: fixed;
 }
