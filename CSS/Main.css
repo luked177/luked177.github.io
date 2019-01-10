@@ -303,7 +303,7 @@ p.about{
 	width:100%;
 	height: 100;
     border-top: 2px solid white;
-    position: absolute; top: 800;
+    position: absolute; top: 700;
     background-color: #000000;
     position: fixed;
 }
