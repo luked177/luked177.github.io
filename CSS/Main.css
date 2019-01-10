@@ -275,7 +275,7 @@ p.about{
 
 	
 	#logo{
-	    position: absolute; left: 400;
+	    position: absolute; left: 350;
 	    padding: ;
 	    margin:0;
 	}
@@ -285,7 +285,7 @@ p.about{
 	}
 
 	#shop a{
-		position: absolute; left: 200; top: 30;
+		position: absolute; left: 100; top: 30;
 		color: #FFFFFF;
 		margin:0;
 		font-size: 1.5em;
