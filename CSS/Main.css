@@ -298,4 +298,8 @@ p.about{
 		font-size: 1.5em;
 	}
 
+	#homeContent{
+		width: 100%
+	}
+
 }
