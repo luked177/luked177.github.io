@@ -63,6 +63,7 @@ function lightMode(){
 	document.getElementById("header").style.backgroundColor="#FFFFFF";
 	document.getElementById("footer").style.backgroundColor="#FFFFFF";
 	document.getElementById("homeContent").style.backgroundColor="#FFFFFF";
+	document.getElementById("demo").style.backgroundColor="#FFFFFF";	
 	$("p").css("color", "#000000");
 	$("h1").css("color", "#000000");
 	$("a").css("color", "#000000");
@@ -83,6 +84,7 @@ function darkMode(){
 	document.getElementById("header").style.backgroundColor="#000000";
 	document.getElementById("footer").style.backgroundColor="#000000";
 	document.getElementById("homeContent").style.backgroundColor="#000000";
+	document.getElementById("demo").style.backgroundColor="#000000";
 	$("p").css("color", "#FFFFFF");
 	$("h1").css("color", "#FFFFFF");
 	$("a").css("color", "#FFFFFF");

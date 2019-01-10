@@ -198,6 +198,13 @@ p.about{
   background-color: grey;
 }
 
+#demo{
+	background-color: #000000
+	margin: 2px;
+	height: auto;
+	width: auto;
+}
+
 
 /*Footer*/
 #footer {
