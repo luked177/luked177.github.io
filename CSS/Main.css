@@ -258,31 +258,10 @@ p.about{
 
 @media screen and (max-width: 800px){
 
-	header {
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100px;
-	border-bottom: 2px solid white;
-	position: fixed;
-	overflow: hidden;
-    
-    text-align: center;
-    letter-spacing: 3px;
-    z-index: 999999999;
-    background-color: #000000;
-}
-
-	
-	#logo{
-	    position: absolute; left: 200;
-	    padding: ;
-	    margin:0;
+	header{
+		width: 100%;
 	}
-
-	img.catfishLogo{
-		width:120; height:80;
-	}
+<<<<<<< HEAD
 
 	#shop a{
 		position: absolute; left: 400; top: 30;
@@ -302,4 +281,6 @@ p.about{
 		width: 100%
 	}
 
+=======
+>>>>>>> parent of e689ea8... Version 4
 }
