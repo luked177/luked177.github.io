@@ -1167,41 +1167,41 @@ p {
 
 /*===== Skills  =====*/
 .skills-fourteen {
-  padding: 80px 0;
+  padding: 100px 0;
   background-color: var(--light-3);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .skills-fourteen {
-    padding: 60px;
+    padding: 80px;
   }
 }
 @media (max-width: 767px) {
   .skills-fourteen {
-    padding: 40px 0;
+    padding: 60px 0;
   }
 }
-.skills-style-fourteen {
+.skills-fourteen {
   border: 1px solid var(--light-1);
   border-radius: 10px;
   margin-top: 30px;
   background-color: var(--white);
   transition: all 0.4s ease;
-  padding: 50px 35px;
-  text-align: center;
+  padding: 0px 0px;
+  text-align: left;
   z-index: 0;
 }
-.skills-style-fourteen:hover {
+.skills-fourteen:hover {
   box-shadow: var(--shadow-4);
 }
-.skills-style-fourteen.middle {
+.skills-fourteen.middle {
   box-shadow: var(--shadow-4);
 }
-.skills-style-fourteen.middle .title {
+.skills-fourteen.middle .title {
   border-color: var(--primary);
   background: var(--primary);
   color: var(--white);
 }
-.skills-style-fourteen .title {
+.skills-fourteen .title {
   font-weight: 500;
   margin-bottom: 25px;
   color: var(--primary);
@@ -1211,20 +1211,20 @@ p {
   border-radius: 30px;
   font-size: 16px;
 }
-.skills-style-fourteen .table-head p {
+.skills-fourteen .table-head p {
   color: var(--dark-3);
 }
-.skills-style-fourteen .price {
+.skills-fourteen .price {
   padding-top: 30px;
 }
-.skills-style-fourteen .amount {
+.skills-fourteen .amount {
   font-weight: 600;
   display: inline-block;
   position: relative;
   padding-left: 15px;
   font-size: 55px;
 }
-.skills-style-fourteen .currency {
+.skills-fourteen .currency {
   font-weight: 400;
   color: var(--dark-3);
   font-size: 20px;
@@ -1232,28 +1232,36 @@ p {
   left: 0;
   top: 6px;
 }
-.skills-style-fourteen .duration {
+.skills-fourteen .duration {
   display: inline-block;
   font-size: 18px;
   color: var(--dark-3);
   font-weight: 400;
 }
-.skills-style-fourteen .light-rounded-buttons {
+.skills-fourteen .light-rounded-buttons {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 40px;
 }
 
 /* Create two equal columns that floats next to each other */
-.skills-style-fourteen .column {
+.skills-fourteen .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+
+.skills-fourteen .column p{
+  text-align: left;
+}
+
+.skills-fourteen .column h2{
+  text-align: left;
 }
 
 /* Clear floats after the columns */
-.skills-style-fourteen .row:after {
+.skills-fourteen .row:after {
   content: "";
   display: table;
   clear: both;
@@ -1261,7 +1269,7 @@ p {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .skills-style-fourteen .column {
+  .skills-fourteen .column {
     width: 100%;
   }
 }
