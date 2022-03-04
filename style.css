@@ -1253,11 +1253,11 @@ p {
 }
 
 .skills-fourteen .column p{
-  text-align: left;
+  text-align: center;
 }
 
 .skills-fourteen .column h2{
-  text-align: left;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
